@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">GuessWhere?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_page">GuessWhere?</string>
+    <string name="hello_papercut">GuessWhere?</string>
+    <string name="where_r_u">"Where are you?"</string>
+    <string name="free_papercut">Free PaperCut</string>
+    <string name="learn_papercut">Learn PaperCut</string>
+    <string name="papercut_world">Upload My Picture</string>
+    <string name="arts_show">Make A Guess</string>
+    <string name="fold">fold</string>
+    <string name="cut">cut</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+    <string name="toast_cannotback">Oops! Cannot go back~~</string>
+    <string name="toast_cannotnext">Oops! Cannot go further~~</string>
+    <string name="my_papercut">Friends</string>
+    <string name="my_handpaint">Celebrities</string>
+    <string name="my_scrawl">Strangers</string>
+	<string name="papercut_arts">Papercut Arts</string>
+	<string name="my_learn">Learn PaperCut</string>
+	<string name="aptude">Longtitude</string>
+	<string name="altude">latitude</string>
+	<string name="ans1">ans1</string>
+	<string name="ans2">ans2</string>
+	<string name="ans3">ans3</string>
+	<string name="ans4">ans4</string>
+	<string name="toast_imagenotready">Oops! Image is not ready, please choose your image first!</string>
+    <string name="toast_processfinished">"Process finished. Please click the image to save or share it."</string>
+</resources>

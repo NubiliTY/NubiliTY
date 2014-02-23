@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gallery_page_back" >
+
+    <com.example.guess.gallery.PatImageView
+        android:id="@+id/patimageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btnans4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/app_name"
+        android:paddingTop="@dimen/padding_small"
+        android:src="@drawable/gallery_page_back" />
+
+    <Button
+        android:id="@+id/btnans1"        
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="15dp"
+        android:text="@string/ans1"
+        android:textColor="#D61111" />
+
+    <Button
+        android:id="@+id/btnans2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnans1"
+        android:layout_alignLeft="@+id/btnans1"
+        android:background="@drawable/button_background"
+        android:text="@string/ans2"
+        android:textColor="#D61111" />
+
+    <Button
+        android:id="@+id/btnans3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnans2"
+        android:layout_alignLeft="@+id/btnans2"
+        android:background="@drawable/button_background"
+        android:text="@string/ans3"
+        android:textColor="#D61111" />
+
+    <Button
+        android:id="@+id/btnans4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnans3"
+        android:layout_alignLeft="@+id/btnans3"
+        android:background="@drawable/button_background"
+        android:text="@string/ans4"
+        android:textColor="#D61111" />
+
+</RelativeLayout>
